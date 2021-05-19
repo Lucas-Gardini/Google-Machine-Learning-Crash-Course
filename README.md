@@ -32,17 +32,17 @@ Supervised Machine Learning:
 # [Reducing Loss](https://developers.google.com/machine-learning/crash-course/reducing-loss/an-iterative-approach)
 
 -   In order to reduce loss, we use a strategy that is called **Gradient Descent**, with that, we can say to our ml model, witch direction it needs to go, in order to reduce the loss produced by the predictions
-    ![Gradient Descent](./README-imgs/GradientDescentExample.png, "Gradient Descent Example")
+    ![Gradient Descent](./README-imgs/GradientDescentExample.png "Gradient Descent Example")
 -   The learning rate represents how much our model will calculate the gradient descent, using a fixed learning rate, our model will recalculate every time ultil it achieves the minimal loss. But, various values has different behaviors, like huge numbers will be going past and before and take long to achieve the minimal, or really small numbers will too, take long to achieve the minimal. See a live example [here](https://developers.google.com/machine-learning/crash-course/fitter/graph)
-    ![Weight Initialization](./README-imgs/WeightInitialization.png, "Weight Initialization")
--         A gradient tells us in what direction we need to go to achieve the minimal loss (0).
+    ![Weight Initialization](./README-imgs/WeightInitialization.png "Weight Initialization")
+-           A gradient tells us in what direction we need to go to achieve the minimal loss (0).
     -   If it's before the minimal loss, we need to go to x positive way ->
     -   Or, if it's after the minimal loss, we need to go to x negative way <-
 -   The learning rate is, in other words, how bigger is the number we will be calculating to reach our minimal loss.
     -   If it's too small, it will take forever to reach te minimun
     -   Or, if it's too larger, we will be passing by the minimal loss forwards and backwards, making our ml model take too long to reach the minimal loss
 -   There's a Goldilocks learning rate for every regression problem. The Goldilocks value is related to how flat the loss function is. If you know the gradient of the loss function is small then you can safely try a larger learning rate, which compensates for the small gradient and results in a larger step size. (Taken exactly like in website)
-    ![Learning Rate](./README-imgs/LearningRate.png, "Learning Rate Problems")
+    ![Learning Rate](./README-imgs/LearningRate.png "Learning Rate Problems")
 
 ## Stochastic Gradient Descent
 
