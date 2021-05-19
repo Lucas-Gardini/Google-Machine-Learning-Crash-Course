@@ -35,7 +35,7 @@ Supervised Machine Learning:
     ![Gradient Descent](./README-imgs/GradientDescentExample.png "Gradient Descent Example")
 -   The learning rate represents how much our model will calculate the gradient descent, using a fixed learning rate, our model will recalculate every time ultil it achieves the minimal loss. But, various values has different behaviors, like huge numbers will be going past and before and take long to achieve the minimal, or really small numbers will too, take long to achieve the minimal. See a live example [here](https://developers.google.com/machine-learning/crash-course/fitter/graph)
     ![Weight Initialization](./README-imgs/WeightInitialization.png "Weight Initialization")
--           A gradient tells us in what direction we need to go to achieve the minimal loss (0).
+-   A gradient tells us in what direction we need to go to achieve the minimal loss (0).
     -   If it's before the minimal loss, we need to go to x positive way ->
     -   Or, if it's after the minimal loss, we need to go to x negative way <-
 -   The learning rate is, in other words, how bigger is the number we will be calculating to reach our minimal loss.
