@@ -21,3 +21,10 @@ Supervised Machine Learning:
 # [Descending into ML](https://developers.google.com/machine-learning/crash-course/descending-into-ml/linear-regression)
 
 -   Lots of complex ways to learn from data
+-   Training a model, means learning good values for all the weights and the bias from label examples.
+-   In supervised learning, the ml algorithm builds a model that attempt to find a model that minimizes the loss. (**Empirical Risk Minimization**)
+-   The loss is the penality for bad predictions. That is, **loss** is a number that indicates how bad the model is on a single example.
+    -   Perfect prediction: loss = 0
+    -   Otherwise: loss > 0
+-   The goal here, is to find a set of weights and biases that have the lowest loss (closer to 0).
+    ![Loss Graph](./README-imgs/LossGraph.png "Loss Graph")
