@@ -1,6 +1,6 @@
-# HERE ARE ALL THE NOTES TAKEN FROM THE GOOGLE MACHINE LEARNING CRASH COURSE THAT YOU CAN FIND
+# Welcome 👋
 
-## [here](https://developers.google.com/machine-learning/crash-course)
+### HERE ARE ALL THE NOTES TAKEN FROM THE GOOGLE MACHINE LEARNING CRASH COURSE THAT YOU CAN FIND [here](https://developers.google.com/machine-learning/crash-course)
 
 The ML changes how you write an algorithm, it changes the common way to write a long code, to just write a simpler code with lots of examples
 
