@@ -4,7 +4,8 @@
 
 The ML changes how you write an algorithm, it changes the common way to write a long code, to just write a simpler code with lots of examples
 
-[Framing](https://developers.google.com/machine-learning/crash-course/framing/ml-terminology)
+# [Framing](https://developers.google.com/machine-learning/crash-course/framing/ml-terminology)
+
 Supervised Machine Learning:
 
 -   The ML system learn how to combine an input and produce useful predictions on newer datas
@@ -17,6 +18,6 @@ Supervised Machine Learning:
 -   In regression, the ml model will predict continuous values like (0, 100, 200, 10000, ...)
 -   In classification, the ml model will predict concrete data, like (dog, paper, true or false, ...)
 
-[Descending into ML](https://developers.google.com/machine-learning/crash-course/descending-into-ml/linear-regression)
+# [Descending into ML](https://developers.google.com/machine-learning/crash-course/descending-into-ml/linear-regression)
 
 -   Lots of complex ways to learn from data
